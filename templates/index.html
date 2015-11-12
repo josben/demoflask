@@ -1,0 +1,9 @@
+
+<!doctype html>
+<title>Test MongoDB</title>
+{% if online_users %}
+<h1>Online users</h1>
+{{ online_users.address }}
+{% else %}
+<h1>Empty</h1>
+{% endif %}
